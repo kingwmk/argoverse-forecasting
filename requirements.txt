@@ -4,13 +4,13 @@ ipdb==0.12.2
 typing==3.7.4.1
 setuptools==41.0.1
 termcolor==1.1.0
-pandas==0.25.1
+pandas
 Shapely==1.6.4.post2
 #argoverse==1.0.0
 tensorflow==2.2.0
 #tensorflow==1.14.0
-numpy==1.17.1
+numpy
 #torch==1.2.0
 torch==1.6.0
 torchvision==0.7.0
-scikit_learn==0.21.3
+scikit_learn==0.23.2
