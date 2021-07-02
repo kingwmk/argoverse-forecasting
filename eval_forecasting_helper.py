@@ -142,7 +142,7 @@ def viz_predictions(
         if show:
             plt.show()
         else:
-            plt.savefig('result_images/'str(idx)+'.jpg')
+            plt.savefig('result_images/'+str(idx)+'.jpg')
 
 def parse_arguments():
     """Parse command line arguments.
