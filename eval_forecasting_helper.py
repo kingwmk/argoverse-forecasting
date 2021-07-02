@@ -10,6 +10,7 @@ import pickle as pkl
 from argoverse.evaluation.eval_forecasting import compute_forecasting_metrics
 from argoverse.map_representation.map_api import ArgoverseMap
 from utils.baseline_config import FEATURE_FORMAT
+import matplotlib.pyplot as plt
 
 def viz_predictions(
         input_: np.ndarray,
@@ -18,7 +19,7 @@ def viz_predictions(
         centerlines: np.ndarray,
         city_names: np.ndarray,
         idx=None,
-        show: bool = True,
+        show: bool = False,
 ) -> None:
     """Visualize predicted trjectories.
     Args:
