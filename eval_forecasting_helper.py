@@ -338,7 +338,7 @@ def viz_predictions_helper(
             gt_trajectory,
             candidate_centerlines,
             city_name,
-            show=True,
+            show=False,
         )
 
 
