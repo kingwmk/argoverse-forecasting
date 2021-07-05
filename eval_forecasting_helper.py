@@ -30,9 +30,7 @@ def viz_predictions(
         city_names (numpy array): city names for each trajectory
         show (bool): if True, show
     """
-    print(input_.shape)
-    print(output.shape)
-    print(target.shape)
+
     num_tracks = input_.shape[0]
     obs_len = input_.shape[1]
     pred_len = target.shape[1]
