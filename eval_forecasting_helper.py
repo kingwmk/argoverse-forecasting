@@ -142,9 +142,9 @@ def viz_predictions(
         handles, labels = plt.gca().get_legend_handles_labels()
         by_label = OrderedDict(zip(labels, handles))
         if show:
-            plt.show()
-        else:
             plt.savefig('result_images/'+str(idx)+'.jpg')
+            plt.show()
+            
 
 def parse_arguments():
     """Parse command line arguments.
