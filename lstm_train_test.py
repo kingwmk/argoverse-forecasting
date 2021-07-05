@@ -121,7 +121,7 @@ def parse_arguments() -> Any:
                         help="Val batch size")
     parser.add_argument("--end_epoch",
                         type=int,
-                        default=5000,
+                        default=500,
                         help="Last epoch")
     parser.add_argument("--lr",
                         type=float,
